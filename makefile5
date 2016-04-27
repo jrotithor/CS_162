@@ -1,0 +1,17 @@
+CC = g++
+exe_file = play_rps
+$(exe_file): tool.o rock.o scissors.o paper.o RPSGame.o main_rps.o
+	$(CC) tool.o rock.o scissors.o paper.o RPSGame.o main_rps.o -o $(exe_file)
+tool.o: tool.cpp
+	$(CC) -c tool.cpp
+rock.o: rock.cpp
+	$(CC) -c rock.cpp
+paper.o: paper.cpp
+	$(CC) -c paper.cpp
+scissors.o: scissors.cpp
+	$(CC) -c scissors.cpp
+RPSGame.o: RPSGame.cpp
+	$(CC) -c RPSGame.cpp
+main_rps.o: main_rps.cpp
+	$(CC) -c main_rps.cpp
+

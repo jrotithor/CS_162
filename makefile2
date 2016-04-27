@@ -1,0 +1,12 @@
+CC = g++
+exe_file = making_it_rain 
+$(exe_file):surgery.o patientaccount.o pharmacy.o hospital.o
+	$(CC) surgery.o patientaccount.o pharmacy.o hospital.o -o $(exe_file)
+surgery.o: surgery.cpp
+	$(CC) -c surgery.cpp
+pharmacy.o: pharmacy.cpp
+	$(CC) -c pharmacy.cpp
+patientaccount.o: patientaccount.cpp
+	$(CC) -c patientaccount.cpp
+hospital.o: hospital.cpp
+	$(CC) -c hospital.cpp

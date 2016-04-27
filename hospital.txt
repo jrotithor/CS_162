@@ -1,0 +1,5 @@
+Jaydeep|pharm|aspirin|35|surg|facelift|1000|23
+Cadell|pharm|benadryl|25|surg|hair transplant|1500|69
+JD|pharm|benadryl|25|surg|facelift|1000|20
+Dan Quayle|pharm|Xarelto|100|surg|brain surgery|10000|15
+Jaydeep|pharm|aspirin|35|surg|facelift|1000|20

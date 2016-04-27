@@ -1,0 +1,22 @@
+#include "floor.h"
+
+template <typename T>
+class Room {
+ private:
+ floor f;
+T *obj; //obj could be a Roomba, Person, etc.
+ public:
+ //The functionality of a room is to view it, put
+ //objects in it, take objects out of it, etc.
+ void view_room(){
+	 for(int i = 0; i < f.obj_row; i++)
+		 for( int j = 0; j < f.obj_col; j++)
+		//	 cout << floor[i][j];
+	;
+	 
+ }
+void clean_room() {
+ if(obj!=NULL)
+ obj->clean_floor(f);
+}
+ };

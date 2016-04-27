@@ -1,0 +1,67 @@
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+TERM: Undefined variable.
+ 13:18:25 up  4:17,  1 user,  load average: 0.00, 0.06, 0.15
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+rotithoj tty1     :0               13:18    4:17m  0.50s  0.12s pam: gdm-passwo
+GNOME_KEYRING_SOCKET=/tmp/keyring-IuLk1c/socket
+SSH_AUTH_SOCK=/tmp/keyring-IuLk1c/socket.ssh
+
+(polkit-gnome-authentication-agent-1:13677): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:13677): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+Initializing nautilus-open-terminal extension
+Initializing nautilus-gdu extension
+Failed to play sound: File or data not found
+console.error: 
+  [CustomizableUI]
+  Custom widget with id loop-button does not return a valid node
+console.error: 
+  [CustomizableUI]
+  Custom widget with id loop-button does not return a valid node
+console.error: 
+  [CustomizableUI]
+  Custom widget with id loop-button does not return a valid node
+Window manager warning: Received a _NET_WM_MOVERESIZE message for 0x160030a (Oregon Sta); these messages lack timestamps and therefore suck.
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15126:21
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15126:21
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15126:21
+1431721618022	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1431721618477	addons.xpi	ERROR	Failed to remove file /nfs/stak/students/r/rotithoj/.mozilla/firefox/7few4fzi.default/extensions/trash/.nfs0000000000a2739b0000001c: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIFile.remove]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: recursiveRemove :: line 1317"  data: no] Stack trace: recursiveRemove()@resource://gre/modules/addons/XPIProvider.jsm:1317 < forEach()@self-hosted:206 < recursiveRemove()@resource://gre/modules/addons/XPIProvider.jsm:1332 < DirInstallLocation_uninstallAddon()@resource://gre/modules/addons/XPIProvider.jsm:7512 < XPI_uninstallAddon()@resource://gre/modules/addons/XPIProvider.jsm:4710 < AddonWrapper_uninstall()@resource://gre/modules/addons/XPIProvider.jsm:6985 < uninstallHotfix/<()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///nfs/stak/students/r/rotithoj/.mozilla/firefox/7few4fzi.default/extensions/firefox-hotfix@mozilla.org.xpi!/bootstrap.js:145 < safeCall()@resource://gre/modules/AddonManager.jsm:173 < getAddonByID_safeCall()@resource://gre/modules/AddonManager.jsm:2081 < getAddonByID_getVisibleAddonForID()@resource://gre/modules/addons/XPIProvider.jsm:3823 < makeSafe/<()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:145 < completeAddon()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:134 < getAddon()@resource://gre/modules/addons/AddonRepository.jsm:580 < this.AddonRepository.getCachedAddonByID<()@resource://gre/modules/addons/AddonRepository.jsm:592 < next()@self-hosted:620 < TaskImpl_run()@resource://gre/modules/Task.jsm:314 < TaskImpl()@resource://gre/modules/Task.jsm:275 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:249 < getRepositoryAddon()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:136 < this.XPIDatabase.getAddon/<()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1074 < Handler.prototype.process()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867 < this.PromiseWalker.walkerLoop()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746 < this.PromiseWalker.scheduleWalkerLoop/<()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688 < <file:unknown>
+1431721618480	addons.xpi	WARN	Failed to remove trash directory when uninstalling firefox-hotfix@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIFile.remove]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: recursiveRemove :: line 1317"  data: no] Stack trace: recursiveRemove()@resource://gre/modules/addons/XPIProvider.jsm:1317 < forEach()@self-hosted:206 < recursiveRemove()@resource://gre/modules/addons/XPIProvider.jsm:1332 < DirInstallLocation_uninstallAddon()@resource://gre/modules/addons/XPIProvider.jsm:7512 < XPI_uninstallAddon()@resource://gre/modules/addons/XPIProvider.jsm:4710 < AddonWrapper_uninstall()@resource://gre/modules/addons/XPIProvider.jsm:6985 < uninstallHotfix/<()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///nfs/stak/students/r/rotithoj/.mozilla/firefox/7few4fzi.default/extensions/firefox-hotfix@mozilla.org.xpi!/bootstrap.js:145 < safeCall()@resource://gre/modules/AddonManager.jsm:173 < getAddonByID_safeCall()@resource://gre/modules/AddonManager.jsm:2081 < getAddonByID_getVisibleAddonForID()@resource://gre/modules/addons/XPIProvider.jsm:3823 < makeSafe/<()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:145 < completeAddon()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:134 < getAddon()@resource://gre/modules/addons/AddonRepository.jsm:580 < this.AddonRepository.getCachedAddonByID<()@resource://gre/modules/addons/AddonRepository.jsm:592 < next()@self-hosted:620 < TaskImpl_run()@resource://gre/modules/Task.jsm:314 < TaskImpl()@resource://gre/modules/Task.jsm:275 < createAsyncFunction/asyncFunction()@resource://gre/modules/Task.jsm:249 < getRepositoryAddon()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:136 < this.XPIDatabase.getAddon/<()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1074 < Handler.prototype.process()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867 < this.PromiseWalker.walkerLoop()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746 < this.PromiseWalker.scheduleWalkerLoop/<()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688 < <file:unknown>
+Window manager warning: Received a _NET_WM_MOVERESIZE message for 0x160030a (CS161 - La); these messages lack timestamps and therefore suck.
+
+(gnome-power-manager:13703): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+Shutting down nautilus-gdu extension
+Shutting down nautilus-open-terminal extension
+
+--- Hash table keys for warning below:
+--> Jaydeep Rotithor
+--> l30
+--> upg55532
+--> rotithoj
+--> inode/directory
+
+(nautilus:13670): Eel-WARNING **: "unique eel_ref_str" hash table still has 5 elements at quit time (keys above)
+
+(nautilus:13670): Eel-WARNING **: "nautilus-directory.c: directories" hash table still has 3 elements at quit time
+
+(polkit-gnome-authentication-agent-1:13677): polkit-gnome-1-WARNING **: Error enumerating temporary authorizations: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.EnumerateTemporaryAuthorizations() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.PolicyKit1.Error.Failed: Cannot determine session the caller is in
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+applet.py: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-screensaver: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+evolution-alarm-notify: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+bluetooth-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-volume-control-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.

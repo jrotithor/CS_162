@@ -1,0 +1,11 @@
+CC = g++
+exe_file = movie_time
+$(exe_file): netflix.o movie.o main_rental.o
+	$(CC) -g netflix.o movie.o main_rental.o -o $(exe_file)
+netflix.o: netflix.cpp
+	$(CC) -g -c netflix.cpp
+movie.o: movie.cpp
+	$(CC) -g -c movie.cpp
+main_rental.o: main_rental.cpp
+	$(CC) -g -c main_rental.cpp
+

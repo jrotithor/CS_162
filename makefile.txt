@@ -1,0 +1,3 @@
+CC = g++
+exe_file = play_rps
+$(exe_file) = tool.o paper.o scissors.o rock.o RPSGame.o main_rps.o
